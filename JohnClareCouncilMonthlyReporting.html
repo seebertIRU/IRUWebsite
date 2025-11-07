@@ -1,0 +1,125 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Knights of Columbus 15485</title>
+<link rel="stylesheet" type="text/css" href="./view.css" media="all">
+ <script>
+   function SendForm(){
+
+   var N=escape(this.Name.value);
+   var E=this.Email.value;
+   var M=escape(this.Month.value);
+   var Ch=escape(this.Church.value);
+   var Comm=escape(this.Community.value);
+   var Cou=escape(this.Council.value);
+   var L=escape(this.Life.value);
+   var F=escape(this.Family.value);
+   var Y=escape(this.Youth.value);
+
+var mailtourl = "mailto:danielsalomon@comcast.net?cc=" + E + "&subject=Volunteer%20Hours%20Report&body=Name:"+ N + "%0D%0A%0D%0AMonth:" + M + "%0D%0A%0D%0AChurch:" + Ch + "%0D%0A%0D%0ACommunity:" + Comm + "%0D%0A%0D%0ACouncil:" + Cou + "%0D%0A%0D%0ALife:" + L + "%0D%0A%0D%0AFamily:" + F + "%0D%0A%0D%0AYouth:" + Y;
+window.open(mailtourl,"_blank");
+return false
+}
+
+ </script>
+
+</head>
+<body id="main_body" >
+	
+	
+	<div id="form_container">
+		<center><img src="15485virtues.jpg" ></center>
+		<h1><a>Knights of Columbus 15485</a></h1>
+		<form id="KofC15485" class="appnitro" >
+					<div class="form_description">
+			<h2>Knights of Columbus 15485</h2>
+			<p>Monthly Reporting form.  Due the 10th for the previous month.  If you have problems with this form, you can also <a href="mailto:danielsalomon@comcast.net">send your answers to scoitik18@yahoo.com</a></p>
+		</div>		
+			
+			<ul >
+			
+					<li id="li_1" >
+		<label class="description" for="Name">Name </label>
+		<div>
+			<input id="Name" name="Name" class="element text medium" type="text" maxlength="255" value=""/> 
+		</div> 
+		</li>		<li id="li_10" >
+		<label class="description" for="Month">Month Reporting for (choose previous Month) </label>
+		<div>
+		<select class="element select medium" id="Month" name="Month"> 
+			<option value="" selected="selected"></option>
+<option value="January" >January</option>
+<option value="February" >February</option>
+<option value="March" >March</option>
+<option value="April" >April</option>
+<option value="May" >May</option>
+<option value="June" >June</option>
+<option value="July" >July</option>
+<option value="August" >August</option>
+<option value="September" >September</option>
+<option value="October" >October</option>
+<option value="November" >November</option>
+<option value="December" >December</option>
+
+		</select>
+		</div><p class="guidelines" id="guide_10"><small>Choose previous month before the 15th of the current month.  If reporting after the 15th because you have no volunteer opportunities for the rest of the month, choose current month.</small></p> 
+		</li>		<li id="li_2" >
+		<label class="description" for="Email">Email </label>
+		<div>
+			<input id="Email" name="Email" class="element text medium" type="text" maxlength="255" value=""/> 
+		</div> 
+		</li><li>On the 15th of every month, we report activities for the previous month to the State. Just about everything you do
+because of your faith, can be reported as a member of our council. These are separated into the following
+categories. Please help our council get points for which we can receive awards from State at the Convention
+Just describe what you do, we'll figure out how to report it.
+    </li>		<li id="li_3" >
+		<label class="description" for="Church">
+Church/Vocations </label>
+		<div>
+			<textarea id="Church" name="Church" class="element textarea medium"></textarea> 
+		</div><p class="guidelines" id="guide_3"><small>serving at ministries related to the Mass, or in support of encouraging vocations to Holy Orders</small></p> 
+		</li>		<li id="li_4" >
+		<label class="description" for="Community">Community Activity </label>
+		<div>
+			<textarea id="Community" name="Community" class="element textarea medium"></textarea> 
+		</div><p class="guidelines" id="guide_4"><small>- serving at ministries that build community in our parishes,
+our cities, and our world. Dinners, breakfasts, lunches, and other events.</small></p> 
+		</li>		<li id="li_5" >
+		<label class="description" for="Council">Council Activities </label>
+		<div>
+			<textarea id="Council" name="Council" class="element textarea medium"></textarea> 
+		</div><p class="guidelines" id="guide_5"><small>attending/preparing for meetings, membership activities.</small></p> 
+		</li>		<li id="li_6" >
+		<label class="description" for="Life">Culture of Life Activities </label>
+		<div>
+			<textarea id="Life" name="Life" class="element textarea medium"></textarea> 
+		</div><p class="guidelines" id="guide_6"><small>40 Rosaries for Life, Baby Bottles or Mother's Day Flowers for Mother and Child
+Education Center, general pro-life activities.</small></p> 
+		</li>		<li id="li_7" >
+		<label class="description" for="Family">Family Program </label>
+		<div>
+			<textarea id="Family" name="Family" class="element textarea medium"></textarea> 
+		</div><p class="guidelines" id="guide_7"><small>ministries that impact Marriage, Children, and Families.</small></p> 
+		</li>		<li id="li_8" >
+		<label class="description" for="Youth">Youth Program </label>
+		<div>
+			<textarea id="Youth" name="Youth" class="element textarea medium"></textarea> 
+		</div><p class="guidelines" id="guide_8"><small>ministries that specifically impact children.
+</small></p> 
+		</li>		
+		</li>
+			
+					<li class="buttons">
+			    <input type="hidden" name="form_id" value="1130346" />
+			    
+				<button onclick="SendForm()">Send</button>
+		</li>
+			</ul>
+		</form>	
+		<div 
+	</div>
+	<img id="bottom" src="images/bottom.png" alt="">
+	</body>
+</html>

@@ -1,0 +1,137 @@
+
+
+body {
+	background: #bbb;
+	color: #000;
+	font-size: 14px; 
+}
+p{font-size:110%}
+
+#nav-container .sidebar-nav ul li a {
+font-size: 1.5em;
+}
+
+#alpha {padding-right:1em}
+#omega {padding-left:1em}
+header#theology .container {text-align:center;justify-content: center}
+header#theology .container span a,  header#footer-header .container span {font-family: 'Open Sans', sans-serif;color:#dadbdc;text-decoration:none;font-size:1.5em;line-height:1.7em;}
+h1, h2 {font-size:2em;line-height:2.1em;padding:.2em} 
+
+@media (min-width:576px){.container{max-width:95%}}
+@media (min-width:768px){.container{max-width:95%}}
+@media (min-width:992px){.container{max-width:95%}}
+@media (min-width:1200px){.container{max-width:95%}}
+
+/*
+@media (min-width:576px){.container-writing{max-width:92%}}
+@media (min-width:768px){.container-writing{max-width:92%}}
+@media (min-width:992px){.container-writing{max-width:92%}}
+@media (min-width:1200px){.container-writing{max-width:1200px}}
+*/
+@media (min-width:576px){.container-writing{max-width:92%}}
+@media (min-width:768px){.container-writing{max-width:92%}}
+@media (min-width:992px){.container-writing{max-width:92%}}
+@media (min-width:1200px){.writing{max-width:1200px}}
+
+ @media only screen and (100px <= width <= 980px) {
+body {
+font-size: 18px;
+font-size: 4vw;
+}
+/*
+	-webkit-text-size-adjust: 200%;
+	font-size: 1em; 
+font-size: 1.5vw;
+p{font-size:120%}
+*/
+#nav-container .sidebar-nav ul li a {
+font-size: 22px;
+font-size: 5vw;
+}
+header#theology .container span a,  header#footer-header .container span {font-size:5vw;line-height:8vw;font-family: 'Open Sans', sans-serif;
+}
+h1, h2 {font-size:7vw;line-height:7.5vw;padding:2vw;font-family: 'Open Sans', sans-serif;
+}
+
+}
+
+
+
+
+#nav-container .col-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+
+
+
+
+#nav-hamburger-div {position:absolute;top:10px;left:10px}
+#nav-container {font-family: 'Open Sans', sans-serif;padding-left:0;margin:0;position:absolute}
+
+.writing {text-align:left;}
+
+h1, h2 {font-family: 'Open Sans', sans-serif;}
+/*
+h2 {font-size: 1.7em;line-height:2rem;padding:1rem}
+*/
+
+
+blockquote {
+  display: block;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+div#footer 	{
+/*
+	font-size: 1vmax;
+	line-height: 1.5vmax;
+*/
+	padding:1.3vmax;
+	font-weight:normal;
+	color:#fff;
+	text-decoration:none;
+	font-family: 'Open Sans', sans-serif;
+}
+
+/*Nav gradients and colors*/ 
+:root {
+	--parent-gradient-b: #66666633;
+	--parent-gradient-e: #66666666;
+	--parent-gradient-b-over: #77777733;
+	--parent-gradient-e-over: #77777766;
+	
+	--sub-parent-gradient-b: #77777722;
+	--sub-parent-gradient-e: #77777755;
+	--sub-parent-gradient-b-over: #88888833;
+	--sub-parent-gradient-e-over: #88888866;
+}
+
+.sidebar-nav .metismenu li a {color:#adb5bd;}
+ 
+.sidebar-nav .metismenu li > a:hover, 
+.sidebar-nav .metismenu li.cat > a:hover,
+.sidebar-nav .metismenu li.sub-cat > a:hover,
+.sidebar-nav .metismenu li.cat > a:focus,
+.sidebar-nav .metismenu li > a.hierarch
+{background: linear-gradient(to bottom, var(--parent-gradient-b-over) 0%, var(--parent-gradient-e-over) 50%,  var(--parent-gradient-b-over) 100%);
+background: -ms-linear-gradient(top, rgba(119,119,119,.22) 0%, rgba(119,119,119,.4) 50%, rgba(119,119,119,.22) 100%);
+background: -webkit-linear-gradient(top, rgba(119,119,119,.22) 0%, rgba(119,119,119,.4) 50%, rgba(119,119,119,.22) 100%);
+}
+
+.sidebar-nav .metismenu li.cat > a:active, 
+.sidebar-nav .metismenu li.mm-active.cat > a, 
+.sidebar-nav .metismenu li.sub-cat > a:active, 
+.sidebar-nav .metismenu .mm-active.sub-cat > a.sub-cat-a
+{color:#adb5bd;}
+
+.the-nav {z-index:3;position:relative;}
+#footer-header {z-index:2;
+position:relative;
+bottom:0px;
+}

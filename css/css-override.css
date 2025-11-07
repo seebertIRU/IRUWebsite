@@ -1,0 +1,105 @@
+body {background-color:#023a4b;color:#ffffff;}
+.the-nav {z-index:3;position:relative;}
+#footer-header {z-index:2;
+position:relative;
+bottom:0px;
+}
+.writing h2 {text-align:center;}
+.writing h3 {text-align:center;}
+
+#footer-header .d-flex {width:100%;text-align:center;justify-content:center;}
+header.resume .d-flex {width:100%;text-align:center;justify-content:center;}
+#footer, #resume {text-align:center;}
+#resume h3 {font-size:110%;padding-bottom:25px;}
+header#theology .container span a, header#footer-header .container span, h2, h3 {
+
+    font-family: 'Open Sans', sans-serif;
+}
+p.reopen {text-style:italic;font-weight:bold;}
+table th, table td{padding: 6px;}
+table th{text-align:left}
+	table th.price {
+		width: 20%;
+		text-style: bold
+	}
+	table th.descrition {
+		width: 60%;
+		text-style: bold
+	}
+	table th.service {
+		width: 20%;
+		text-style: bold
+	}
+table td{vertical-align:top;}
+table {width:95%;align: left;}
+/*
+
+*/
+#nav-container {font-family: 'Open Sans', sans-serif;font-size:100%;font-style:italic;}
+@media only screen and (width <= 980px){
+
+header#theology .container span a {font-size:125%;
+line-height:130%}
+h2{font-size:120%;
+line-height:130%}
+h3{font-size:110%;
+line-height:120%}
+p, td, th{font-size:85%;}
+
+}
+@media only screen and (100px <= width <= 980px){
+#nav-container .sidebar-nav ul li a {
+font-family: 'Open Sans', sans-serif;font-size:100%;font-style:italic;}
+header#theology .container span a {font-size:125%;
+line-height:140%}
+h2{font-size:120%;
+line-height:130%}
+h3{font-size:110%;
+line-height:120%}
+p, td, th, header#footer-header .container span{font-size:85%;}
+
+}
+
+header#theology .container span a, header#footer-header .container span, h2, h3 {
+
+	font-weight:normal;
+	font-style:italic;
+}
+
+/* Sticky header styling */
+header#top {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1000;
+	background-color: #f8f9fa;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+header#top .navbar {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 10pt;
+}
+
+header#top h1 {
+	font-size: 10pt;
+	margin: 0;
+	padding: 10px 0;
+}
+
+header#top h1 a {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 10pt;
+	text-decoration: none;
+	margin: 0 15px;
+	color: #007bff;
+}
+
+header#top h1 a:hover {
+	color: #0056b3;
+}
+
+/* Add padding to content below fixed header */
+.container.writing {
+	padding-top: 80px; /* Adjust based on header height */
+}
