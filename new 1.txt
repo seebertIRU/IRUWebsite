@@ -1,7 +1,1 @@
-Merchantid 4228997700829331
-541808375
-844-864-5449
-
-CloverID&Password ZBiL#gQR#ZQk65!
-
-iaccessportal password: uZ!mFeXB!bXMB8t
+This file in the original contained secrets that have been revoked
